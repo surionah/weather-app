@@ -78,3 +78,11 @@ main {
 input {
   display: none;
 }
+
+footer {
+  width: 100vw;
+  position: absolute;
+  bottom: 2rem;
+  margin: auto;
+  text-align: center;
+}
