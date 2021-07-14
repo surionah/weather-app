@@ -4,3 +4,25 @@
   border: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --light-bg-color: #FDFFFC;
+  --dark-bg-color: #18435A;
+  --light-txt-color: #36413E;
+  --dark-txt-color: #D7D6D6;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.light-theme {
+  background: var(--light-bg-color);
+  color: var(--light-txt-color);
+}
+
+.dark-theme {
+  background: var(--dark-bg-color);
+  color: var(--dark-txt-color);
+}
