@@ -5,7 +5,7 @@ setInterval(() => {
 }, 1000)
 
 const mainElement = document.getElementById('weather-app-main')
-const themeToggle = document.getElementById('theme-toggle')
+const themeToggle = document.getElementById('theme-toggle-input')
 const themeLabel = document.getElementById('theme-label')
 
 themeToggle.addEventListener('change', (e) => {

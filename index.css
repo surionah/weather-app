@@ -22,7 +22,53 @@ main {
   color: var(--light-txt-color);
 }
 
+.light-theme .theme-toggle-container {
+  border: 2px solid var(--light-txt-color);
+}
+
+.light-theme .theme-toggle-content {
+  background: var(--light-txt-color);
+  left: 3px;
+}
+
 .dark-theme {
   background: var(--dark-bg-color);
   color: var(--dark-txt-color);
+}
+
+.dark-theme .theme-toggle-container {
+  border: 2px solid var(--dark-txt-color);
+}
+
+.dark-theme .theme-toggle-content {
+  background: var(--dark-txt-color);
+  right: 3px;
+}
+
+.theme-toggle {
+  display: flex;
+  align-items: center;
+}
+
+.theme-toggle>label {
+  margin-right: 3px;
+}
+
+.theme-toggle-container {
+  width: 35px;
+  height: 20px;
+  position: relative;
+  border-radius: 10px;
+}
+
+.theme-toggle-content {
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 2px;
+  border-radius: 6px;
+}
+
+input {
+  display: none;
 }
