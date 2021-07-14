@@ -10,5 +10,5 @@ const themeLabel = document.getElementById('theme-label')
 
 themeToggle.addEventListener('change', (e) => {
   themeLabel.innerText = e.target.checked ? 'Dark' : 'Light'
-  mainElement.className = e.target.checked ? 'dark-theme' : 'light-theme'
+  mainElement.className = `${e.target.checked ? 'dark' : 'light'}-theme`
 })
