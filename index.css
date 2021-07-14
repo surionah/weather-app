@@ -18,6 +18,11 @@ main {
   padding: 2rem;
 }
 
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
 .light-theme {
   background: var(--light-bg-color);
   color: var(--light-txt-color);
