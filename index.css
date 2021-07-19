@@ -79,6 +79,36 @@ main {
   border-radius: 6px;
 }
 
+.city-and-time {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.weather-data {
+  display: flex;
+}
+
+.weather-data .temperature {
+  font-size: 4rem;
+}
+
+.values {
+  text-align: right;
+}
+
+.weather-data p span {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.weather-main {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
 input {
   display: none;
 }
