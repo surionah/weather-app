@@ -83,28 +83,39 @@ main {
   display: flex;
   justify-content: space-between;
   font-size: 1.5rem;
-  margin: 2rem 0;
+  margin: 1.5rem 0;
 }
 
 .weather-data {
   display: flex;
 }
 
-.weather-data .temperature {
+.weather-data .temperature, .weather-data .temperature span {
   font-size: 4rem;
+}
+
+figure {
+  width: 55%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dark-theme figure {
+  filter: invert(1)
 }
 
 .values {
   text-align: right;
+  min-width: 45%;
 }
 
 .weather-data p span {
   font-weight: bold;
-  font-size: 1.2rem;
 }
 
 .weather-main {
-  font-size: 1.5rem;
+  font-size: 2rem;
   text-align: center;
   margin: 1.5rem 0;
 }
