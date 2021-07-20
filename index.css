@@ -105,6 +105,25 @@ figure {
   filter: invert(1)
 }
 
+.light-theme select {
+  background: var(--light-bg-color);
+  color: var(--light-txt-color);
+}
+
+.dark-theme select {
+  background: var(--dark-bg-color);
+  color: var(--dark-txt-color);
+}
+
+select {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+select:focus-visible {
+  outline: none;
+}
+
 .values {
   text-align: right;
   min-width: 45%;
